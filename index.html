@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Spin-off of "Challenge: Classification"</title>
+        <style>
+        .right-answer {
+            background: rgb(0, 255, 9);
+        }
+        
+        .wrong-answer { 
+            background: rgb(237, 28, 0);
+        }
+        </style>
+    </head>
+    <body>
+        
+        <h2>Pop Quiz: Animal Classification</h2>
+        
+        <p>1. manusia termasuk dalam kelas hewan ?</p>
+        <ul id="answers">
+            <li>Mammalia</li>
+            <li>Ascidiacea</li>
+            <li>Reptilia</li>
+        </ul>
+        
+        <p>2.hewan pemakan segala disebut juga dengan ?</p>
+        <ul id="answers2">
+            <li>herbivora</li>
+            <li>karnivora</li>
+            <li>omnivora</li>
+        </ul>
+        
+         <p>3. hewan manakah yang bisa melahirkan ?</p>
+        <ul id="answers3">
+            <li>herbivora</li>
+            <li>reptilia</li>
+            <li>mamalia</li>
+        </ul>
+        
+        <p>4. hewan yang hidup di air dan darat disebut ?</p>
+        <ul id="answers4">
+            <li>amfibi</li>
+            <li>mamalia</li>
+            <li>karnivora</li>
+        </ul>
+        
+          <p>5. ikan bernafas dengan ?</p>
+        <ul id="answers5">
+            <li>paru paru</li>
+            <li>ingsang</li>
+            <li>kulit</li>
+        </ul>
+        
+        <script>
+        var answers = document.querySelectorAll('#answers li');
+        var rightAnswer = answers[0];
+        var wrongAnswer1 = answers[1];
+        var wrongAnswer2 = answers[2];
+        rightAnswer.className="right-answer"
+        wrongAnswer1.className="wrong-answer"
+        wrongAnswer2.className="wrong-answer"
+        var answers = document.querySelectorAll('#answers2 li');
+        var rightAnswer = answers[2];
+        var wrongAnswer1 = answers[1];
+        var wrongAnswer2 = answers[0];
+        rightAnswer.className="right-answer"
+        wrongAnswer1.className="wrong-answer"
+        wrongAnswer2.className="wrong-answer"
+        var answers = document.querySelectorAll('#answers3 li');
+        var rightAnswer = answers[2];
+        var wrongAnswer1 = answers[0];
+        var wrongAnswer2 = answers[1];
+        rightAnswer.className="right-answer"
+        wrongAnswer1.className="wrong-answer"
+        wrongAnswer2.className="wrong-answer"
+         var answers = document.querySelectorAll('#answers4 li');
+        var rightAnswer = answers[0];
+        var wrongAnswer1 = answers[1];
+        var wrongAnswer2 = answers[2];
+        rightAnswer.className="right-answer"
+        wrongAnswer1.className="wrong-answer"
+        wrongAnswer2.className="wrong-answer"
+        var answers = document.querySelectorAll('#answers5 li');
+        var rightAnswer = answers[1];
+        var wrongAnswer1 = answers[0];
+        var wrongAnswer2 = answers[2];
+        rightAnswer.className="right-answer"
+        wrongAnswer1.className="wrong-answer"
+        wrongAnswer2.className="wrong-answer"
+        </script>
+    </body>
+</html>
